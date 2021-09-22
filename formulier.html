@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- hier zet je de code in de head tags -->
+    <title>Formulier</title>
+</head>
+
+<body>
+    <div class="topbar">
+        <p>Topbar</p>
+    </div>
+    <header>
+        <div class="box-1">
+            <img src="logo.png" alt="logo">
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="over.html">Over</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="formulier.html">Formulier</a>
+                </li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <form name="formulier" method="POST" data-netlify="true"> 
+        <p>
+            <label>Naam: <input type="text" name="name" /></label>   
+        </p>
+        <p>
+            <label>Email: <input type="email" name="email" /></label>   
+        </p>
+        <p>
+            <label>Telefoonnummer: <input type="tel" name="telefoonnummer" /></label>   
+        </p>
+        <p>
+            <label>Leeftijd: <input type="number" name="leeftijd" /></label>   
+        </p>
+        <p>
+            <label>Geboortedatum: <input type="date" name="Geboortedatum" /></label>   
+        </p>
+        <p>
+            <label>Geslacht: <input type="radio" name="Geslacht" value="Man"/>Man
+            <input type="radio" name="Geslacht" value="Vrouw"/>Vrouw
+            </label>
+        </p>
+        <p>
+            <label> <input type="hidden" name="favoriete cuisine" />Favoriete cuisine:
+                <input type="checkbox" id="frans" name="frans"/>
+                <label for="frans"> Frans</label>
+                <input type="checkbox" id="italiaans" name="Italiaans"/> 
+                <label for="frans"> Italiaans</label>
+                <input type="checkbox" id="spaans" name="Spaans"/>
+                <label for="frans"> Spaans</label>
+                <input type="checkbox" id="arabisch" name="arabisch"/>
+                <label for="frans"> Arabisch</label>
+            </label>
+        </p>
+        <p>
+            <label>Kleur schort: <input type="color" name="Kleur schort" /></label>   
+        </p>
+        <p>
+            <label>Biografie: <br><textarea name="biografie" id="" cols="30" rows="10"></textarea></label>
+        </p>
+        <p>
+            <label>Upload je laatste recept: <input type="file" name="Upload" /></label>
+        </p>
+        <p>
+            <label>Url naar je recepten website: <input type="url" name="website" /></label>
+        </p>
+        <p>
+            <input type="reset">
+            <input type="submit">
+        </p>
+    </form>
+    </main>
+    <footer>
+        <div class="flex">
+            <div class="box-6">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="over.html">Over</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="formulier.html">Formulier</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="box-7"><p>Hier komt mijn socialmedia</p></div>
+            <div class="box-7"><p>Hier kan ik nog iets ander kwijt, wat ik in de footer wil hebben.</p></div>
+        </div>
+            <div class="copyright">
+            <p>&copy Copyright 2021 Crea-Ster</p>
+        </div>
+    </footer>
+</body>
+
+</html>
